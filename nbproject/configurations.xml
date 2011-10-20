@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="79">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="sdlquake-1.0.9" root=".">
+      <df name="build">
+      </df>
+      <df name="id1">
+      </df>
+      <df name="src">
+        <df name="data">
+        </df>
+        <df name="docs">
+        </df>
+        <df name="dxsdk">
+          <df name="SDK">
+            <df name="INC">
+              <in>D3D.H</in>
+              <in>D3DCAPS.H</in>
+              <in>D3DRM.H</in>
+              <in>D3DRMDEF.H</in>
+              <in>D3DRMOBJ.H</in>
+              <in>D3DRMWIN.H</in>
+              <in>D3DTYPES.H</in>
+              <in>DDRAW.H</in>
+              <in>DINPUT.H</in>
+              <in>DPLAY.H</in>
+              <in>DSETUP.H</in>
+              <in>DSOUND.H</in>
+              <in>FASTFILE.H</in>
+            </df>
+            <df name="LIB">
+            </df>
+          </df>
+        </df>
+        <df name="gas2masm">
+          <in>gas2masm.c</in>
+        </df>
+        <df name="kit">
+        </df>
+        <df name="scitech">
+          <df name="INCLUDE">
+            <in>DEBUG.H</in>
+            <in>MGLDOS.H</in>
+            <in>MGLWIN.H</in>
+            <in>MGRAPH.H</in>
+          </df>
+          <df name="LIB">
+            <df name="WIN32">
+              <df name="VC">
+              </df>
+            </df>
+          </df>
+        </df>
+        <in>adivtab.h</in>
+        <in>anorm_dots.h</in>
+        <in>anorms.h</in>
+        <in>asm_draw.h</in>
+        <in>asm_i386.h</in>
+        <in>block16.h</in>
+        <in>block8.h</in>
+        <in>bspfile.h</in>
+        <in>cd_null.c</in>
+        <in>cdaudio.h</in>
+        <in>chase.c</in>
+        <in>cl_demo.c</in>
+        <in>cl_input.c</in>
+        <in>cl_main.c</in>
+        <in>cl_parse.c</in>
+        <in>cl_tent.c</in>
+        <in>client.h</in>
+        <in>cmd.c</in>
+        <in>cmd.h</in>
+        <in>common.c</in>
+        <in>common.h</in>
+        <in>conproc.h</in>
+        <in>console.c</in>
+        <in>console.h</in>
+        <in>crc.c</in>
+        <in>crc.h</in>
+        <in>cvar.c</in>
+        <in>cvar.h</in>
+        <in>d_edge.c</in>
+        <in>d_fill.c</in>
+        <in>d_iface.h</in>
+        <in>d_ifacea.h</in>
+        <in>d_init.c</in>
+        <in>d_local.h</in>
+        <in>d_modech.c</in>
+        <in>d_part.c</in>
+        <in>d_polyse.c</in>
+        <in>d_scan.c</in>
+        <in>d_sky.c</in>
+        <in>d_sprite.c</in>
+        <in>d_surf.c</in>
+        <in>d_vars.c</in>
+        <in>d_zpoint.c</in>
+        <in>dosisms.h</in>
+        <in>draw.c</in>
+        <in>draw.h</in>
+        <in>glquake.h</in>
+        <in>glquake2.h</in>
+        <in>host.c</in>
+        <in>host_cmd.c</in>
+        <in>input.h</in>
+        <in>keys.c</in>
+        <in>keys.h</in>
+        <in>mathlib.c</in>
+        <in>mathlib.h</in>
+        <in>menu.c</in>
+        <in>menu.h</in>
+        <in>model.c</in>
+        <in>model.h</in>
+        <in>modelgen.h</in>
+        <in>mpdosock.h</in>
+        <in>net.h</in>
+        <in>net_bw.h</in>
+        <in>net_dgrm.c</in>
+        <in>net_dgrm.h</in>
+        <in>net_ipx.h</in>
+        <in>net_loop.c</in>
+        <in>net_loop.h</in>
+        <in>net_main.c</in>
+        <in>net_mp.h</in>
+        <in>net_none.c</in>
+        <in>net_ser.h</in>
+        <in>net_udp.h</in>
+        <in>net_vcr.c</in>
+        <in>net_vcr.h</in>
+        <in>net_wins.h</in>
+        <in>net_wipx.h</in>
+        <in>net_wso.c</in>
+        <in>nonintel.c</in>
+        <in>pr_cmds.c</in>
+        <in>pr_comp.h</in>
+        <in>pr_edict.c</in>
+        <in>pr_exec.c</in>
+        <in>progdefs.h</in>
+        <in>progdefs.q1</in>
+        <in>progs.h</in>
+        <in>protocol.h</in>
+        <in>quakeasm.h</in>
+        <in>quakedef.h</in>
+        <in>r_aclip.c</in>
+        <in>r_alias.c</in>
+        <in>r_bsp.c</in>
+        <in>r_draw.c</in>
+        <in>r_edge.c</in>
+        <in>r_efrag.c</in>
+        <in>r_light.c</in>
+        <in>r_local.h</in>
+        <in>r_main.c</in>
+        <in>r_misc.c</in>
+        <in>r_part.c</in>
+        <in>r_shared.h</in>
+        <in>r_sky.c</in>
+        <in>r_sprite.c</in>
+        <in>r_surf.c</in>
+        <in>r_vars.c</in>
+        <in>render.h</in>
+        <in>resource.h</in>
+        <in>sbar.c</in>
+        <in>sbar.h</in>
+        <in>screen.c</in>
+        <in>screen.h</in>
+        <in>server.h</in>
+        <in>snd_dma.c</in>
+        <in>snd_mem.c</in>
+        <in>snd_mix.c</in>
+        <in>snd_sdl.c</in>
+        <in>sound.h</in>
+        <in>spritegn.h</in>
+        <in>sv_main.c</in>
+        <in>sv_move.c</in>
+        <in>sv_phys.c</in>
+        <in>sv_user.c</in>
+        <in>sys.h</in>
+        <in>sys_sdl.c</in>
+        <in>vgamodes.h</in>
+        <in>vid.h</in>
+        <in>vid_dos.h</in>
+        <in>vid_sdl.c</in>
+        <in>view.c</in>
+        <in>view.h</in>
+        <in>vregset.h</in>
+        <in>wad.c</in>
+        <in>wad.h</in>
+        <in>winquake.h</in>
+        <in>world.c</in>
+        <in>world.h</in>
+        <in>zone.c</in>
+        <in>zone.h</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
