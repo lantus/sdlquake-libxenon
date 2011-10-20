@@ -745,8 +745,6 @@ keypress.
 */
 int SCR_ModalMessage (char *text)
 {
-        cls.state == ca_dedicated;
-        
 	if (cls.state == ca_dedicated)
 		return true;
 

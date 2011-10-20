@@ -1,0 +1,47 @@
+SDLQuake for LibXenon
+=====================
+
+Requirements and Installation
+=============================
+
+To compile your own version of SDLQuake you will need to do the following:
+
+Compile libSDLXenon (SDL) - find it at https://github.com/lantus/libSDLXenon
+
+Grab the source and install libSDLXenon first with 'make -f Makefile.xenon install'
+
+Grab the latest SDLQuake source from https://github.com/lantus/sdlquake-libxenon
+
+Use 'make' to build SQLQuake.
+
+
+Usage
+=====
+
+Shareware version .pak file is included. If you want to use the registered Quake, replace pak0.pak with the registered version.
+
+
+Fire             Right trigger
+Jump             Left trigger
+Next weapon	 DPad up
+Prev weapon	 DPad down
+Walk             Left stick Y
+Strafe           Left stick X
+Look up/down     Right stick Y
+Look left/right  Right stick X
+
+Controls can be customized via the 'Options' menu, and by editing your config.cfg files.
+
+Issues
+======
+
+Currently there is no way to load in custom mods/mission packs etc.
+Network code is disabled.
+Misc crashes.
+
+Thanks
+======
+
+gligli, cancerous, razkar, jqe, ced2911
+
+
