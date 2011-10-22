@@ -91,8 +91,8 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #define K_XBOX_RTRIG            218
 #define	K_XBOX_LSH		219
 #define	K_XBOX_RSH		220
-#define	K_AUX15			221
-#define	K_AUX16			222
+#define	K_XBOX_LTHUMB		221
+#define	K_XBOX_RTHUMB		222
 #define	K_AUX17			223
 #define	K_AUX18			224
 #define	K_AUX19			225

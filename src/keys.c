@@ -110,10 +110,10 @@ keyname_t keynames[] =
 	{"XBOX_LTRIG", K_XBOX_LTRIG},
 	{"XBOX_RTRIG", K_XBOX_RTRIG},         
 	{"XBOX_LSHOULDER", K_XBOX_LSH},
-	{"XBOX_RSHOULDER", K_XBOX_RSH},
+	{"XBOX_RSHOULDER", K_XBOX_RSH},        
+	{"XBOX_LTHUMB", K_XBOX_LTHUMB},
+	{"XBOX_RTHUMB", K_XBOX_RTHUMB},
         
-	{"AUX15", K_AUX15},
-	{"AUX16", K_AUX16},
 	{"AUX17", K_AUX17},
 	{"AUX18", K_AUX18},
 	{"AUX19", K_AUX19},

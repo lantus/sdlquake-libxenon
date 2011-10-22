@@ -520,6 +520,27 @@ static void Joy_UpdateButtons()
 		Key_Event(K_XBOX_Y, 1);
 	else if (SDL_JoystickGetButton(sdl_joysticks,3) == SDL_RELEASED)
 		Key_Event(K_XBOX_Y, 0);
+        
+        if (SDL_JoystickGetButton(sdl_joysticks,4) == SDL_PRESSED)
+		Key_Event(K_XBOX_LSH, 1);
+	else if (SDL_JoystickGetButton(sdl_joysticks,4) == SDL_RELEASED)
+		Key_Event(K_XBOX_LSH, 0);
+
+	if (SDL_JoystickGetButton(sdl_joysticks,5) == SDL_PRESSED)
+		Key_Event(K_XBOX_RSH, 1);
+	else if (SDL_JoystickGetButton(sdl_joysticks,5) == SDL_RELEASED)
+		Key_Event(K_XBOX_RSH, 0);
+        
+        if (SDL_JoystickGetButton(sdl_joysticks,6) == SDL_PRESSED)
+		Key_Event(K_XBOX_LTHUMB, 1);
+	else if (SDL_JoystickGetButton(sdl_joysticks,6) == SDL_RELEASED)
+		Key_Event(K_XBOX_LTHUMB, 0);
+
+	if (SDL_JoystickGetButton(sdl_joysticks,7) == SDL_PRESSED)
+		Key_Event(K_XBOX_RTHUMB, 1);
+	else if (SDL_JoystickGetButton(sdl_joysticks,7) == SDL_RELEASED)
+		Key_Event(K_XBOX_RTHUMB, 0);        
+        
 
 	if (SDL_JoystickGetButton(sdl_joysticks,10) == SDL_PRESSED)
 		Key_Event(K_XBOX_LTRIG, 1);
